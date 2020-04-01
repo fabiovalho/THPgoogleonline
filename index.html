@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="Fabio TENORIO DE CARVALHO">
+  <title>THP | fake google</title>
+  </head>
+  <style>
+    #main {
+    font-family: 'Liberation Sans', sans-serif;
+    }
+    #uppernav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    .upper_item {
+    font-size: 0.8em;
+    margin: 2px;
+    padding: 10px;
+    }
+    .connexion {
+    font-weight: bold;
+    background: #4287F5;
+    color: white;
+    text-align: center;
+    }
+    section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    }
+    #logo {
+    font-size: 3.3em;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    }
+    .g {color: #1b63cf;}.o1{color: #e62d27;}.o2{color: #f5972c;}.l{color: green;}.e{color: red;}
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 100px;
+    }
+    #googlebar {
+    border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 3px #f0f0f0;
+    width: 550px;
+    height: 40px;
+    }
+    #searchbutton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    }
+    button {
+    font-family: 'Liberation Sans', sans-serif;
+    color: #636363;
+    padding: 5px;
+    margin: 10px;
+    border-color: #f0f0f0;
+    border-radius: 3px;
+    }
+    #search {
+    align-self: flex-start;
+    }
+    #luck {
+    align-self: flex-end;
+    }
+    footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f0f0f0;
+    color: #636363;
+    font-size: 0.9em;
+    }
+    .bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-color: #d4d4d4;
+    margin: 5px 10px 5px 10px;
+    }
+    #left-bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    }
+    #right-bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: space-around;
+    width: 50%;
+    }
+    </style>
+    
+  <body>
+    <div id="main">
+      <header>
+	<nav>
+	<!-- up-right nav bar: Gmail Images little squares 3x3 login button-->
+	<div id="uppernav">
+	  <div class="upper_item">Gmail</div>
+	  <div class="upper_item">Images</div>
+	  <div class="upper_item googlegrid"><img src="grid-three-up-24.png" alt="google's app upper grid"></div>
+	  <div class="upper_item connexion">Connexion</div>
+	</div>
+	</nav>
+      </header>
+      <section>
+	<!-- creating google's logo from scratch with flexboxes -->
+	<div id="logo">
+	  <h1 class="g letter">G</h1><h1 class="o1 letter">o</h1><h1 class="o2 letter">o</h1><h1 class="g letter">g</h1><h1 class="l letter">l</h1><h1 class="e letter">e</h1>
+	</div>
+
+	<!-- now the search bar and buttons -->
+	<form>
+	  <div id="searchbar">
+	  <label for="googlebar"></label>
+	  <input type="text" id="googlebar" name="googlebar">
+	  </div>
+	  <div id="searchbutton">
+	    <div id="search">
+	      <label for="searchgoogle"></label>
+	      <button type="button" id="searchgoogle">Recherche Google</button>
+	    </div>
+	    <div id="luck">
+	      <label for="feelingluck"></label>
+	      <button type="button" id="feelingluck">J'ai de la chance</button>
+	    </div>
+	  </div>
+	</form>
+      </section>
+      <footer>
+	<!-- the footer splits in two: the country indication and other links below-->
+	<div class="country bottom-nav">
+	  <p>France</p>
+	</div>
+	<div class="bottom-nav">
+	  <div id="left-bottom-nav">
+	    <div>Publicité</div>
+	    <div>Entreprise</div>
+	    <div>À propos</div>
+	    <div>Comment fonctionne la recherche Google?</div>
+	  </div>
+	  <div id="right-bottom-nav">
+	    <div>Publication judiciaire</div>
+	    <div>Info consommateurs</div>
+	    <div>Confidentialité</div>
+	    <div>Conditions</div>
+	    <div>Paramètres</div>
+	  </div>
+	 </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+      
+	
